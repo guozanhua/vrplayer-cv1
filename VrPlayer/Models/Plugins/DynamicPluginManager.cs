@@ -27,8 +27,7 @@ namespace VrPlayer.Models.Plugins
             {
                 if (_medias == null)
                     return new BindingList<IPlugin<IMedia>>();
-                return _medias.Where(media => media.Content == null)
-                    .Concat(_medias.Where(media => media.Content != null));
+                return _medias.Where(media => media.Content != null);
             }
         }
 
