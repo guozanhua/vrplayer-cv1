@@ -18,6 +18,7 @@ namespace VrPlayer.Models.Plugins
 {
     public class DynamicPluginManager : IPluginManager
     {
+#pragma warning disable 0649
         [ImportMany]
         private IEnumerable<IPlugin<IMedia>> _medias;
         public IEnumerable<IPlugin<IMedia>> Medias
@@ -96,6 +97,7 @@ namespace VrPlayer.Models.Plugins
                     .Concat(_stabilizers.Where(stabilizers => stabilizers.Content != null));
             }
         }
+#pragma warning restore 0649
 
         public DynamicPluginManager(string path, IEnumerable<string> folders)
         {
