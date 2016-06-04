@@ -12,7 +12,7 @@ namespace VrPlayer.Medias.Gdi
             {
                 DataContext = media;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

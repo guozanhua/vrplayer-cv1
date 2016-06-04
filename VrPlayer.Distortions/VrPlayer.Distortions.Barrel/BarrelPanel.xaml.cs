@@ -12,7 +12,7 @@ namespace VrPlayer.Distortions.Barrel
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

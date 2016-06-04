@@ -79,7 +79,7 @@ namespace VrPlayer.Trackers.YEI3SpaceTracker
                 ThreeSpaceInterop.StartStreaming(_device.DeviceId, ref _device.TimeStamp);
                 Calibrate();
             }
-            catch (Exception exc)
+            catch (Exception)
             {
                 IsEnabled = false;
             }

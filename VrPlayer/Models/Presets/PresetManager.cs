@@ -433,7 +433,7 @@ namespace VrPlayer.Models.Presets
                     var value = property.ToObject(propertyInfo.PropertyType);
                     propertyInfo.SetValue(target, value, null);
                 }
-                catch (Exception exc)
+                catch (Exception)
                 {
                 }
             }

@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.YEI3SpaceTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

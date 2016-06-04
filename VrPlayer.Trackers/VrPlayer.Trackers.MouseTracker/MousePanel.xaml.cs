@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.MouseTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

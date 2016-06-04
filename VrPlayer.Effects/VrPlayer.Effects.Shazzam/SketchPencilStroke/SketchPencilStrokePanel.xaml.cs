@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.Shazzam.SketchPencilStroke
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

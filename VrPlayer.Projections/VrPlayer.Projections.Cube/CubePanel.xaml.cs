@@ -12,7 +12,7 @@ namespace VrPlayer.Projections.Cube
             {
                 DataContext = projection;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

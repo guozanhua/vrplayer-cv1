@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.DepthMapSbs
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

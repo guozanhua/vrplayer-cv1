@@ -65,7 +65,7 @@ namespace VrPlayer.Medias.Gdi
             {
                 _media.Source = WindowsCapture.CaptureWindow(Process.MainWindowHandle).ToImageSource();
             }
-            catch (Exception exc)
+            catch (Exception)
             {
                 _timer.Stop();
             }

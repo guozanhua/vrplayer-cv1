@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.VrpnTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

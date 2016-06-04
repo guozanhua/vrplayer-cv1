@@ -20,7 +20,7 @@ namespace VrPlayer.Medias.VlcDotNet
             {
                 DataContext = media;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

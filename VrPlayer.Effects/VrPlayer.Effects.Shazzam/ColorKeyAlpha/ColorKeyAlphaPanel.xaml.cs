@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.Shazzam.ColorKeyAlpha
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

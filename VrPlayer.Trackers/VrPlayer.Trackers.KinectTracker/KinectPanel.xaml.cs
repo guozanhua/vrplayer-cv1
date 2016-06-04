@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.KinectTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

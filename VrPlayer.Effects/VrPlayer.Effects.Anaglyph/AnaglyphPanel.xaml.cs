@@ -16,7 +16,7 @@ namespace VrPlayer.Effects.Anaglyph
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

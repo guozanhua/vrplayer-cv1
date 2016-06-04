@@ -12,7 +12,7 @@ namespace VrPlayer.Projections.Plane
             {
                 DataContext = projection;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

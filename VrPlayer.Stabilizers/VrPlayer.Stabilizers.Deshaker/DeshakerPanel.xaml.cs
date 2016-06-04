@@ -17,7 +17,7 @@ namespace VrPlayer.Stabilizers.Deshaker
                 _stabilizer = stabilizer;
                 DataContext = stabilizer;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

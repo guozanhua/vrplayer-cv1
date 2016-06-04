@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.Shazzam.Pixelate
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

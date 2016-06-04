@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.DepthMapOverUnder
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

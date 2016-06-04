@@ -12,7 +12,7 @@ namespace VrPlayer.Distortions.Pincushion
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

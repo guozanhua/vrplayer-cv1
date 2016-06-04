@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.PsMoveTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

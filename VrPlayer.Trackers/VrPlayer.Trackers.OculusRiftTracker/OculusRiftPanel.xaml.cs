@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.OculusRiftTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

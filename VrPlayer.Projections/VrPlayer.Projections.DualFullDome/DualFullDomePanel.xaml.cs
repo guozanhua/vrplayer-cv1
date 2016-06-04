@@ -12,7 +12,7 @@ namespace VrPlayer.Projections.DualFullDome
             {
                 DataContext = projection;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

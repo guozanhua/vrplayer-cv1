@@ -17,7 +17,7 @@ namespace VrPlayer.Projections.File
                 _projection = projection;
                 DataContext = projection;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

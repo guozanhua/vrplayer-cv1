@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.UnwrapFishEyeStereo
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

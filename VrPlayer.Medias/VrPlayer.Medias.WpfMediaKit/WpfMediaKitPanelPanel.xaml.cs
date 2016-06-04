@@ -14,7 +14,7 @@ namespace VrPlayer.Medias.WpfMediaKit
             {
                 DataContext = media;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

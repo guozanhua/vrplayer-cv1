@@ -12,7 +12,7 @@ namespace VrPlayer.Effects.Shazzam.ToonShader
             {
                 DataContext = effect;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

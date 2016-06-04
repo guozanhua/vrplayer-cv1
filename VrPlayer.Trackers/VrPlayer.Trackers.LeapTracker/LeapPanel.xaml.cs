@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.LeapTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

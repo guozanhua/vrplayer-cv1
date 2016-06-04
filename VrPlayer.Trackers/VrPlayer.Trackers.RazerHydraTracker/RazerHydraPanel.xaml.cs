@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.RazerHydraTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

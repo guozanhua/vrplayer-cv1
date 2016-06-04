@@ -22,7 +22,7 @@ namespace VrPlayer.Stabilizers.Csv
                 _stabilizer = stabilizer;
                 DataContext = stabilizer;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

@@ -12,7 +12,7 @@ namespace VrPlayer.Projections.Cylinder
             {
                 DataContext = projection;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }

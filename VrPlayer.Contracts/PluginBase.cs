@@ -28,7 +28,7 @@ namespace VrPlayer.Contracts
                     var obj = Convert.ChangeType(val.Value, prop.PropertyType, CultureInfo.InvariantCulture);
                     prop.SetValue(Content, obj, null);
                 }
-                catch (InvalidCastException exc)
+                catch (InvalidCastException)
                 {
                     //Todo: Extract unsupported type conversion to utils
                     if (prop.PropertyType == typeof (Color))

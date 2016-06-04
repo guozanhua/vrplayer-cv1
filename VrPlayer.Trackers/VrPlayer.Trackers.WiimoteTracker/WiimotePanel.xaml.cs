@@ -12,7 +12,7 @@ namespace VrPlayer.Trackers.WiimoteTracker
             {
                 DataContext = tracker;
             }
-            catch (Exception exc)
+            catch (Exception)
             {
             }
         }
