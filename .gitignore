@@ -4,6 +4,7 @@
 _ReSharper.*
 
 *.suo
+*.vcxproj.filters
 
 obj
 
@@ -14,3 +15,7 @@ bin
 *.msi
 
 /packages
+
+/ipch
+*.VC.db
+*.VC.opendb

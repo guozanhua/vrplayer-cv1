@@ -57,6 +57,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\OvrWrapper\OvrWrapper.vcxproj">
+      <Project>{2f648456-b42a-4b5d-a271-7921096f53cb}</Project>
+      <Name>OvrWrapper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\VrPlayer.Contracts\VrPlayer.Contracts.csproj">
       <Project>{463D0CFD-915F-41ED-9807-D509EBE1124C}</Project>
       <Name>VrPlayer.Contracts</Name>
