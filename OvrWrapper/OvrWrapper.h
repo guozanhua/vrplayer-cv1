@@ -1,18 +1,15 @@
-// OvrWrapper.h
-
 #pragma once
-#include <OVR_CAPI.h>
-
 #pragma comment(lib, "LibOVR")
 
-using namespace System;
+#include "OvrSession.h"
 
 namespace OvrWrapper
 {
-	public ref class Ovr abstract sealed
+	public ref class OvrWrapper
 	{
 	public:
-		static void Initialize();
-		static void Shutdown();
+		OvrWrapper();
+		~OvrWrapper();
+		OvrSession^ CreateSession();
 	};
 }

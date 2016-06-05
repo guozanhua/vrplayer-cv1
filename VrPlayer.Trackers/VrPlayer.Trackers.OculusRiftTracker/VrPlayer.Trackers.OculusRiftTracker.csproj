@@ -86,8 +86,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(SolutionDir)Lib\RiftWrapper\*.*" "$(TargetDir)" /y
-xcopy "$(TargetDir)*.*" "$(SolutionDir)VrPlayer\$(OutDir)\Trackers\$(TargetName)\" /y</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)VrPlayer\$(OutDir)\Trackers\$(TargetName)\" /y</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

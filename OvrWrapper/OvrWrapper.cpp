@@ -1,19 +1,29 @@
-// This is the main DLL file.
-
 #include "stdafx.h"
 
-#include "OvrWrapper.h"
+#include <OVR_CAPI.h>
 
-void OvrWrapper::Ovr::Initialize()
+#include "OvrWrapper.h"
+#include "OvrSession.h"
+
+using namespace System;
+using namespace OvrWrapper;
+
+::OvrWrapper::OvrWrapper::OvrWrapper()
 {
-	ovrResult result = ovr_Initialize(nullptr);
-	if (OVR_FAILURE(result))
-	{
-		throw gcnew Exception("Failed to initialize libOVR");
+	auto result = ovr_Initialize(nullptr);
+	if (OVR_FAILURE(result)) {
+		ovrErrorInfo errorInfo;
+		ovr_GetLastErrorInfo(&errorInfo);
+		throw gcnew Exception(String::Format("OVR initialization failed: {}", gcnew String(errorInfo.ErrorString)));
 	}
 }
 
-void OvrWrapper::Ovr::Shutdown()
+::OvrWrapper::OvrWrapper::~OvrWrapper()
 {
 	ovr_Shutdown();
+}
+
+OvrSession^ ::OvrWrapper::OvrWrapper::CreateSession()
+{
+	return gcnew OvrSession();
 }
